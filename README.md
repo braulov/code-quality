@@ -27,10 +27,3 @@ The `State` class describes the main entity - "state". A state represents the cu
 
 At the beginning of the program, an instance of the `CodeAnalyzer` class is created. This class defines method complexity metrics, camelCase validation, and global logic for state changes. It also stores method data (in our case, complexity and camelCase validation). We have the current `State`, perform actions corresponding to its type, determine which state to transition to next, and transition until reaching the final state.
 
-# Contributing
-
-Feel free to contribute by opening issues or submitting pull requests. We welcome any suggestions, improvements, or bug fixes to make this project better.
-
-# License
-
-This project is licensed under the [MIT License](LICENSE).
